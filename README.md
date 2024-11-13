@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# People CRUD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descripción
 
-## Available Scripts
+People CRUD es una aplicación desarrollada en React que permite realizar operaciones CRUD (Crear, Leer, Actualizar y Eliminar) sobre una lista de personas. El objetivo principal de este proyecto es proporcionar una solución sencilla y funcional para gestionar datos de manera eficiente, utilizando tecnologías modernas del ecosistema de desarrollo frontend.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Características principales
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Operaciones CRUD completas:**
+  - Crear nuevos registros de personas.
+  - Leer y visualizar información detallada.
+  - Editar registros existentes.
+  - Eliminar registros de manera segura.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Interfaz amigable:**
+  - Utiliza Bootstrap y React-Bootstrap para un diseño responsivo y atractivo.
 
-### `npm test`
+- **Rendimiento optimizado:**
+  - Implementación eficiente gracias a React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tecnologías utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend
+- **React**: Biblioteca principal para la construcción de la interfaz de usuario.
+- **React Router DOM**: Manejo de rutas dentro de la aplicación.
+- **React-Bootstrap**: Componentes estilizados para una interfaz moderna.
+- **Bootstrap**: Framework CSS para un diseño responsivo.
+- **Bootstrap Icons**: Iconografía utilizada en la aplicación.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend y API
+- **Axios**: Cliente HTTP para consumir APIs.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Desarrollo y Configuración
+- **TypeScript**: Lenguaje tipado para mayor seguridad y escalabilidad en el desarrollo.
+- **ESLint**: Configuración de estilo y calidad de código.
+- **React Scripts**: Scripts preconfigurados para construir y servir la aplicación.
+- **Web Vitals**: Monitoreo de rendimiento.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Configuración inicial
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Requisitos
+- Node.js (v16 o superior
