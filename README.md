@@ -45,4 +45,88 @@ People CRUD es una aplicación desarrollada en React que permite realizar operac
 ## Configuración inicial
 
 ### Requisitos
-- Node.js (v16 o superior
+- Node.js (v16 o superior)
+- npm o Yarn como gestor de paquetes
+
+### Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone <URL_DEL_REPOSITORIO>
+   cd people-crud
+   ```
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+   # o si usas Yarn
+   yarn install
+   ```
+
+3. Inicia la aplicación en modo desarrollo:
+   ```bash
+   npm start
+   # o si usas Yarn
+   yarn start
+   ```
+
+La aplicación estará disponible en `http://localhost:3000`.
+
+---
+
+## Estructura del proyecto
+
+```plaintext
+people-crud/
+├── src/
+│   ├── components/       # Componentes reutilizables
+│   ├── pages/            # Vistas principales
+│   ├── services/         # Lógica de acceso a la API
+│   ├── App.tsx           # Punto de entrada principal
+│   └── index.tsx         # Renderizado de React
+├── public/               # Recursos públicos
+├── package.json          # Dependencias y scripts
+├── tsconfig.json         # Configuración de TypeScript
+└── README.md             # Documentación
+```
+
+---
+
+## Scripts disponibles
+
+- `npm start`: Inicia la aplicación en modo desarrollo.
+- `npm build`: Construye la aplicación para producción.
+- `npm test`: Ejecuta las pruebas unitarias.
+- `npm eject`: Expone la configuración interna de React Scripts.
+
+---
+
+## Contribución
+
+¡Las contribuciones son bienvenidas! Si deseas colaborar:
+
+1. Haz un fork del proyecto.
+2. Crea una rama para tu funcionalidad o corrección:
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+   ```
+3. Realiza tus cambios y sube tu rama:
+   ```bash
+   git push origin feature/nueva-funcionalidad
+   ```
+4. Abre un Pull Request detallando los cambios realizados.
+
+---
+
+## Licencia
+
+Este proyecto está bajo la licencia [MIT](./LICENSE).
+
+---
+
+## Contacto
+
+Si tienes preguntas o sugerencias, no dudes en contactarnos:
+- Email: p.reynoso.mena@gmail.com
+- GitHub: [Repositorio del proyecto](https://github.com/usuario/people-crud)
+
